@@ -19,11 +19,10 @@ operations={
 }
 
 def Calculator():
-
-first_number=int(input("What is the first number ?"))
-isfirst=True
-prev_result=0
-result=0
+    first_number=int(input("What is the first number ?"))
+    isfirst=True
+    prev_result=0
+    result=0
 
 while continue_calculations:
     print("+ \n- \n/ \n*")
